@@ -1,0 +1,54 @@
+{
+  "companyMission": {
+    "standard": "parce que je pense pouvoir apporter une réelle valeur ajoutée à votre entreprise grâce à mon expertise technique et à ma capacité d'adaptation, tout en consolidant mes compétences au contact de la diversité de vos projets.",
+    "ed-tech": "grâce à votre engagement dans la digitalisation des outils éducatifs qui fait écho à mon parcours en ed-tech. En effet, fort de plusieurs années d’expérience dans l’éducation numérique en tant que développeur, j’ai travaillé sur des projets facilitant l’apprentissage et améliorant l’accès aux connaissances.",
+    "ecology": " parce que je pense que nous partageons les mêmes valeurs en ce qui concerne la sensibilité environnementale et la prise de conscience de l'impact de l'empreinte carbone de nos sociétés, à ce sujet je suis également bénévole au shift project, avec lesquels j'apporte mon expertise sur certains sujets techniques.",
+    "géographies": "",
+    "aménagement_du_territoire": "",
+    "histoire": "",
+    "politique": "",
+    "education": "",
+    "sécurité": "",
+    "fonction_publique": "",
+    "animaux": "",
+    "féminisme": "",
+    "sexualité": "",
+    "social_justice": "",
+    "arts": "",
+    "sport": "",
+    "esn": "",
+    "justice": "",
+    "immobilier": "",
+    "cybersecurite": "",
+    "energy": ""
+  },
+  "companyTechStack_same": {
+    "python": "Python",
+    "django": "Django",
+    "html_css": "HTML, CSS",
+    "javascript": "JavaScript",
+    "typescript": "TypeScript",
+    "react": "React",
+    "next": "Next.js",
+    "tailwind": "Tailwind",
+    "node": "Node.js",
+    "vuejs": "Vue.js",
+    "devops": "des outils DevOps"
+  },
+  "companyTechStack_other": {
+    "angular": "Angular",
+    "java": "Java",
+    "php": "PHP",
+    "ruby": "Ruby",
+    "go": "Go"
+  },
+  "staticParts": {
+    "base": "Bonjour,\n\nJe m’appelle Dimitri Hoareau, je suis développeur. Anciennement enseignant, j’ai construit un parcours qui allie compétences techniques et expérience pédagogique. Rejoindre [companyName] m’intéresse particulièrement, notamment [companyMission]",
+    "experience": "Au cours de mes expériences, j’ai contribué au développement et à la maintenance de plateformes LMS et d’outils digitaux pour des startups, collectivités ou grands groupes.",
+    "tech_experience": "Ma maîtrise de technologies telles que [companyTechStack_same] me permet de concevoir des applications maintenables et sécurisées. L'utilisation de ces outils dans votre stack technique reflète une approche moderne, en accord avec mon expérience de développeur.",
+    "tech_objectives": "Concernant [companyTechStack_other], ma compréhension des paradigmes de programmation me permettra de monter rapidement en compétences et d'être opérationnel sur un temps court.",
+    "personal_traits": "Ce qui me caractérise, c’est ma capacité à conjuguer rigueur technique et pédagogie pour m’adresser aussi bien aux profils tech qu’aux non-tech. Autonome et habitué aux environnements agiles, je sais rapidement identifier les priorités et adapter mes méthodes pour relever efficacement les défis techniques.",
+    "closing": "Je serais heureux de pouvoir discuter plus en détail de la manière dont mon expérience et mes compétences peuvent s’intégrer à vos projets. Je vous ai fourni un exemplaire de mon CV en pièce jointe, et voici un lien vers mon profil LinkedIn : https://www.linkedin.com/in/dimitri-hoareau/\n\nJe vous remercie pour l’attention portée à ma candidature et reste à votre disposition pour convenir d’un entretien.",
+    "signature": "Cordialement,\n\nDimitri Hoareau"
+  }
+}

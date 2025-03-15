@@ -1,0 +1,57 @@
+Bonjour,
+
+Je m’appelle Dimitri Hoareau, je suis développeur. Anciennement enseignant, j’ai construit un parcours qui allie compétences techniques et expérience pédagogique. Rejoindre [companyName] m’intéresse particulièrement, notamment grâce à [companyMission] 
+
+Au cours de mes expériences, j’ai contribué au développement et à la maintenance de plateformes LMS et d’outils digitaux pour de startup, collectivités ou grands groupes. Ma maîtrise de technologies telles que [companyTechStack_same] me permet de concevoir des applications maintenables et sécurisées. Votre utilisation de ces outils dans votre stack technique reflète une approche technique moderne, en accord avec mon expérience de développeur. Concernant [companyTechStack_other], ma compréhension des paradigmes de programmation me permettra de monter rapidement en compétences et d'être opérationnel sur un temps court.
+
+Ce qui me caractérise, c’est ma capacité à conjuguer rigueur technique et pédagogie pour m’adresser aussi bien aux profils tech qu’aux non-tech. Autonome et habitué aux environnements agiles, je sais rapidement identifier les priorités et adapter mes méthodes pour relever efficacement les défis techniques.
+
+Je serais heureux de pouvoir discuter plus en détail de la manière dont mon expérience et mes compétences peuvent s’intégrer à vos projets. Je vous ai fourni un exemplaire de mon CV en pièce jointe, et voici un lien vers mon profil linkedin : https://www.linkedin.com/in/dimitri-hoareau/
+
+Je vous remercie pour l’attention portée à ma candidature et reste à votre disposition pour convenir d’un entretien.
+
+Cordialement,
+
+Dimitri Hoareau
+
+
+
+
+[companyMission ]
+votre engagement dans la digitalisation des outils éducatifs qui fait echo à mon parcours en ed-tech. En effet, fort de plusieurs années d’expérience dans le domaine de l’éducation numérique en tant que développeur, j’ai eu l’occasion de travailler sur des projets qui facilitent l’apprentissage et améliorent l’accès aux connaissances.
+
+{
+  "companyMission": {
+    "ed-tech": "votre engagement dans la digitalisation des outils éducatifs qui fait echo à mon parcours en ed-tech. En effet, fort de plusieurs années d’expérience dans le domaine de l’éducation numérique en tant que développeur, j’ai eu l’occasion de travailler sur des projets qui facilitent l’apprentissage et améliorent l’accès aux connaissances.",
+    "ecology": ...
+  },
+  "companyTechStack_same":{
+    "python": Python,
+    "django": Django,
+    "html_css": ,
+    "javascript": ,
+    "typescript":,
+    "react": ,
+    "vuejs"
+    "devops": les outils DevOps
+
+  },
+  "companyTechStack_other": {
+    "angular": Angular,
+    "java"
+    "php"
+    "ruby"
+    "go"
+  }
+
+  
+}
+
+
+Standard / Ed-Tech / ecology/  Géographies /aménagement du territoire / histoire / politique / education / sécurité / fonction publique / animaux / féminisme / sexualité / social-justice / arts / sport / ESN / justice / immobilier /cybersecurité / energy
+
+
+
+général : missions variées, challenge
+
+esn : conseil, partenaire variés, challenge, 
