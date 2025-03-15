@@ -19,21 +19,28 @@ export default function Modal({
   const content = contentData as ContentType;
   const textRef = useRef<HTMLDivElement>(null);
 
-  console.log(companyTechStack_same);
-
-  const handleCopy = () => {
-    console.log(textRef);
-    console.log("click");
-    if (textRef.current) {
-      navigator.clipboard
-        .writeText(textRef.current.innerText)
-        .then(() => alert("Texte copié !"))
-        .catch(() => alert("Erreur lors de la copie."));
+  const handleCopy = async () => {
+    try {
+      if (!textRef.current) {
+        alert("Aucun texte à copier");
+        return;
+      }
+      const response = await navigator.clipboard.writeText(
+        textRef.current.innerText
+      );
+      alert("Texte copié !");
+      return response;
+    } catch (error) {
+      alert("Erreur lors de la copie.");
+      console.error("Erreur:", error);
     }
   };
 
   return (
-    <div className="w-8/10 mx-auto p-6 border border-gray-300 rounded shadow-md bg-white">
+    <div
+      ref={textRef}
+      className="w-8/10 mx-auto p-6 border border-gray-300 rounded shadow-md bg-white"
+    >
       {companyName && (
         <>
           <p className="whitespace-pre-wrap text-lg mb-4">
