@@ -37,49 +37,47 @@ export default function Modal({
   };
 
   return (
-    <div
-      ref={textRef}
-      className="w-8/10 mx-auto p-6 border border-gray-300 rounded shadow-md bg-white"
-    >
+    <div className="w-8/10 mx-auto p-6 border border-gray-300 rounded shadow-md bg-white">
       {companyName && (
         <>
-          <p className="whitespace-pre-wrap text-lg mb-4">
-            {content.staticParts.base
-              .replace("[companyName]", companyName)
-              .replace(
-                "[companyMission]",
-                content.companyMission[companyMission]
+          <div ref={textRef}>
+            <p className="whitespace-pre-wrap text-lg mb-4">
+              {content.staticParts.base
+                .replace("[companyName]", companyName)
+                .replace(
+                  "[companyMission]",
+                  content.companyMission[companyMission]
+                )}
+            </p>
+            <p
+              className={`${
+                companyTechStack_other ? "text-lg" : "text-lg mb-4"
+              } whitespace-pre-wrap`}
+            >
+              {content.staticParts.tech_experience.replace(
+                "[companyTechStack_same]",
+                companyTechStack_same
               )}
-          </p>
-          <p
-            className={`${
-              companyTechStack_other ? "text-lg" : "text-lg mb-4"
-            } whitespace-pre-wrap`}
-          >
-            {content.staticParts.tech_experience.replace(
-              "[companyTechStack_same]",
-              companyTechStack_same
-            )}
-          </p>
+            </p>
 
-          <p className="whitespace-pre-wrap text-lg mb-4">
-            {companyTechStack_other &&
-              content.staticParts.tech_objectives.replace(
-                "[companyTechStack_other]",
-                companyTechStack_other
-              )}
-          </p>
+            <p className="whitespace-pre-wrap text-lg mb-4">
+              {companyTechStack_other &&
+                content.staticParts.tech_objectives.replace(
+                  "[companyTechStack_other]",
+                  companyTechStack_other
+                )}
+            </p>
 
-          <p className="whitespace-pre-wrap text-lg mb-4">
-            {content.staticParts.personal_traits}
-          </p>
-          <p className="whitespace-pre-wrap text-lg mt-6">
-            {content.staticParts.closing}
-          </p>
-          <p className="whitespace-pre-wrap text-lg mt-4">
-            {content.staticParts.signature}
-          </p>
-
+            <p className="whitespace-pre-wrap text-lg mb-4">
+              {content.staticParts.personal_traits}
+            </p>
+            <p className="whitespace-pre-wrap text-lg mt-6">
+              {content.staticParts.closing}
+            </p>
+            <p className="whitespace-pre-wrap text-lg mt-4">
+              {content.staticParts.signature}
+            </p>
+          </div>
           <button
             className="mt-4 bg-blue-500 hover:bg-blue-600 text-white py-2 px-4 rounded"
             onClick={handleCopy}
