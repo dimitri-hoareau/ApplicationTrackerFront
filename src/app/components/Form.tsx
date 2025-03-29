@@ -117,6 +117,7 @@ export default function Form() {
             <option value="health">Health</option>
             <option value="green_mobility">Green mobility</option>
             <option value="géographies">Géographies</option>
+            <option value="public">Fonction publique</option>
           </select>
         </div>
 
@@ -162,7 +163,7 @@ export default function Form() {
           type="submit"
           className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600"
         >
-          Enregistrer
+          Copy & Save
         </button>
       </form>
 
