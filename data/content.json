@@ -36,6 +36,7 @@
     "tailwind": "Tailwind",
     "node": "Node.js",
     "vuejs": "Vue.js",
+    "bdd": "des bases de données relationnelles et non relationnelles",
     "devops": "des outils DevOps"
   },
   "companyTechStack_other": {
@@ -46,7 +47,9 @@
     "go": "Go"
   },
   "staticParts": {
-    "base": "Bonjour,\n\nJe m’appelle Dimitri Hoareau, j'ai 5 années d'expérience en développement web. Anciennement enseignant, j’ai construit un parcours qui allie compétences techniques et expérience pédagogique. Rejoindre [companyName] m’intéresse particulièrement, notamment [companyMission]",
+    "base": "Bonjour,\n\nJe m’appelle Dimitri Hoareau, j'ai 5 années d'expérience en développement web. Anciennement enseignant, j’ai construit un parcours qui allie compétences techniques et expérience pédagogique.",
+    "base_long": "Bonjour, je m’appelle Dimitri Hoareau.\n\nAprès un master de géographie et 5 années à enseigner dans l’éducation nationale, tout en exerçant comme pompier volontaire, j’ai choisi en 2019 de réorienter ma carrière vers le numérique.\nJ’ai d’abord suivi une formation en 2019 pour apprendre le développement web, à la suite de laquelle j’ai effectué un stage chez Weup Learning, une entreprise ed-tech. J’ai ensuite intégré cette entreprise en CDI jusqu’au début de l’année 2024.\nDepuis, j’ai lancé mon auto-entreprise, où j’ai mené à bien divers projets, dont une plateforme e-learning pour e-academy (Amazon Belgique). Je me suis également essayé avec succès à la formation, en dispensant des cours de développement web pour des BTS, bachelor et master (HTML, CSS, JavaScript, Python Django, React) dans des écoles telles que l’IPSSI, l’école multimédia ou l’IIM. Parallèlement, je développe mon propre LMS afin de fournir une plateforme d’enseignement adaptée aux étudiants.",
+    "join_company": "Rejoindre [companyName] m’intéresse particulièrement, notamment [companyMission]",
     "experience": "Au cours de mes expériences, j’ai contribué au développement et à la maintenance de plateformes LMS et d’outils digitaux pour des startups, collectivités ou grands groupes.",
     "tech_experience": "Ma maîtrise de technologies telles que [companyTechStack_same] me permet de concevoir des applications maintenables et sécurisées. L'utilisation de ces outils dans votre stack technique reflète une approche moderne, en accord avec mon expérience de développeur.",
     "tech_objectives": "Concernant [companyTechStack_other], ma compréhension des paradigmes de programmation back-end me permettra de monter rapidement en compétences et d'être opérationnel sur un temps court.",
