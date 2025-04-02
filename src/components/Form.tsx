@@ -120,7 +120,7 @@ export default function Form() {
             <option value="health">Health</option>
             <option value="green_mobility">Green mobility</option>
             <option value="géographies">Géographies</option>
-            <option value="public">Fonction publique</option>
+            <option value="fonction_publique">Fonction publique</option>
           </select>
         </div>
 

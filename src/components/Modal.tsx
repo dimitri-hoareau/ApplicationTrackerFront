@@ -1,5 +1,5 @@
 "use client";
-import { useRef } from "react";
+import { useRef, useState, useEffect } from "react";
 import type { ContentType } from "../types/types";
 import contentData from "../../data/content.json";
 
@@ -44,6 +44,22 @@ export default function Modal({
 }: ModalProps) {
   const content = contentData as ContentType;
   const textRef = useRef<HTMLDivElement>(null);
+  const [firstContent, setFirstContent] = useState("");
+
+  const contentRef = useRef<HTMLParagraphElement>(null);
+
+  useEffect(() => {
+    if (contentRef.current) {
+      contentRef.current.textContent = firstContent;
+    }
+  }, [firstContent]);
+
+  useEffect(() => {
+    const textContent = content.staticParts.join_company
+      .replace("[companyName]", companyName)
+      .replace("[companyMission]", content.companyMission[companyMission]);
+    setFirstContent(textContent);
+  }, [companyMission, companyName]);
 
   const handleCopy = async () => {
     try {
@@ -63,6 +79,7 @@ export default function Modal({
 
   const handleRestore = () => {
     setCompanyName("");
+    setLink("");
     setCompanyMission("standard");
     setTechSame(initialTechSame);
     setTechOther(initialTechOther);
@@ -76,8 +93,6 @@ export default function Modal({
       ...techSame,
       ...techOther,
     };
-
-    console.log(payload);
 
     try {
       const response = await fetch("http://127.0.0.1:8000/api/applications/", {
@@ -117,17 +132,10 @@ export default function Modal({
             </p>
             <p
               contentEditable="true"
+              ref={contentRef}
               className="whitespace-pre-wrap text-lg mb-4"
-            >
-              {content.staticParts.join_company
-                .replace("[companyName]", companyName)
-                .replace(
-                  "[companyMission]",
-                  content.companyMission[companyMission]
-                )}
-            </p>
+            ></p>
             <p
-              contentEditable="true"
               className={`${
                 companyTechStack_other ? "text-lg" : "text-lg mb-4"
               } whitespace-pre-wrap`}
